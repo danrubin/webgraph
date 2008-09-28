@@ -1,0 +1,29 @@
+/*
+-----------------------------------------------
+ie styles for webgraph.com
+edited:2008-04-27
+----------------------------------------------- */
+
+#sidebar a { padding:1px;color:#f4911e;font-weight:bold; }
+#sidebar a:hover { color:#d4c3b8;background-color:#2e2927;text-decoration:none; }
+
+#content { width:650px;background-image:none; }
+
+#brands { margin-left:0; }
+#brands li { background-image:none;background-color:#2e2927; }
+#content #brands li h2,
+#content #brands li p { background:transparent;margin-left:0;padding-left:10px;padding-right:10px; }
+#content #brands li p a {
+    left:0;
+}
+
+#sidebar #about,
+#contact,
+#mt a { right:0;background-image:none;text-indent:0;text-align:right; }
+#mt a { width:auto; }
+#mt a strong { display:block; }
+
+#contact { bottom:41px;width:163px; }
+
+.street-address,
+.postal-code { display:block; }

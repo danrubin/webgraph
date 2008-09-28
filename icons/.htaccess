@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /icons/
+RewriteRule ^index_pc\.html$ index_pc.php
+RewriteRule ^index\.html$ index.php [L]

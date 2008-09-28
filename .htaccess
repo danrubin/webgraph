@@ -1,0 +1,9 @@
+# (mt) requires this line for mod_rewrite
+Options +FollowSymLinks
+
+# redirect any incoming requests for old resources
+redirect 301 /usability/applescripts/ http://webgraph.com/resources/viewbrowsersource/
+redirect 301 /usability/applescripts/index.php http://webgraph.com/resources/viewbrowsersource/
+
+# error documents
+errordocument 404 /404.html
